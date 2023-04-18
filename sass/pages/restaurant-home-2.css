@@ -1,0 +1,163 @@
+header {
+  background-color: #BB2339;
+}
+
+button {
+  cursor: pointer;
+}
+
+.navbar-first {
+  background-color: #BB2339;
+  position: fixed;
+  display: flex;
+}
+
+ul {
+  justify-content: end;
+}
+
+.section-1 {
+  background-color: #BB2339;
+}
+
+.collapse .navbar-nav {
+  margin-left: 50%;
+}
+
+.btn {
+  padding: 5px 20px !important;
+  border-radius: 33px !important;
+}
+
+.container .ap-tab {
+  height: 600px;
+}
+
+.liinks {
+  list-style-type: none;
+}
+.liinks li {
+  padding-right: 1.5rem;
+}
+.liinks li a {
+  color: white;
+  text-decoration: none;
+}
+
+.section-2 {
+  margin-top: 100px;
+}
+
+.ap-tab {
+  background-color: #BB2339;
+  border-radius: 20px;
+}
+
+.ap-tab-list {
+  list-style-type: none;
+}
+.ap-tab-list .ap-tab-link {
+  padding: 7px 20px;
+  color: white;
+  border: 1px solid white;
+}
+
+.card {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.ap-tab-container .ap-tab-content {
+  align-items: center;
+}
+
+span {
+  margin: auto;
+}
+
+.conteineer-2 {
+  margin-top: -150px;
+  position: absolute;
+  text-align: center;
+  background-color: #BB2339;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid white;
+}
+.conteineer-2 .unput {
+  position: relative;
+}
+.conteineer-2 .unput .button-2 {
+  color: #F4F4F4;
+  padding: 7px 20px;
+  margin-left: 1rem;
+  border-radius: 33px;
+  border: 1px solid #F4F4F4;
+  background-color: #BB2339;
+}
+.conteineer-2 .unput label {
+  position: absolute;
+  top: 10px;
+  left: 35%;
+  color: #242424;
+}
+.conteineer-2 .unput label:focus {
+  position: absolute;
+  top: 10px;
+  left: 35%;
+}
+.conteineer-2 input {
+  background-color: #BB2339;
+  padding: 7px 50px;
+  border-radius: 33px;
+  border: 1px solid #242424;
+  margin-bottom: 50px;
+}
+
+footer {
+  position: relative;
+  color: #F4F4F4;
+  background-color: #BB2339;
+}
+footer p {
+  color: #F4F4F4 10%;
+  text-align: center;
+}
+footer .img-face {
+  margin-right: 20px;
+}
+footer .first-img {
+  padding-left: 20%;
+  margin: 30px;
+  margin-top: 200px;
+}
+footer h5 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 200px;
+}
+footer .teetle {
+  align-items: space-between;
+}
+
+.last-p {
+  margin-top: 100px;
+}
+
+.containeer {
+  margin-bottom: 200px;
+}
+
+@media (max-width: 992px) {
+  .collapse .navbar-nav {
+    margin-left: 0rem;
+  }
+  .conteineer .cont {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .liinks {
+    display: none;
+  }
+}/*# sourceMappingURL=restaurant-home-2.css.map */

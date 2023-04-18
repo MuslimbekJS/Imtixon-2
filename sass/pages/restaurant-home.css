@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap");
+:root {
+  --font-family: "Dongle" ;
+}
+
+header {
+  background-color: #BB2339;
+}
+
+button {
+  cursor: pointer;
+}
+
+nav {
+  background-color: #BB2339;
+  position: fixed;
+  display: flex;
+}
+
+ul {
+  justify-content: end;
+}
+
+.section-1 {
+  background-color: #BB2339;
+}
+
+.collapse .navbar-nav {
+  margin-left: 50%;
+}
+
+.btn {
+  padding: 5px 20px !important;
+  border-radius: 33px !important;
+}
+
+.liinks {
+  list-style-type: none;
+}
+.liinks li {
+  padding-right: 1.5rem;
+}
+.liinks li a {
+  color: white;
+  text-decoration: none;
+}
+
+.conteineer .cont {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row: 1fr;
+  grid-column-gap: 50px;
+}
+.conteineer .cont .second-p {
+  margin: 20px 0px;
+  padding-right: 9rem;
+  opacity: 0.5;
+}
+.conteineer .cont h1 {
+  font-size: 79px;
+  /* or 117px */
+  text-transform: capitalize;
+}
+.conteineer .cont .content {
+  margin-top: 100px;
+}
+.conteineer .cont .content .button-1 {
+  margin-bottom: 100px;
+  cursor: pointer;
+  padding: 5px 30px;
+  color: white;
+  background-color: #BB2339;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+.conteineer .cont .content .button-1:hover {
+  background-color: white;
+  color: #BB2339;
+  transition: 0.6s;
+}
+.conteineer .cont .image {
+  margin-top: 100px;
+}
+.conteineer .cont .image img {
+  width: 100%;
+}
+
+.ap-tab h2 {
+  font-family: var(--font-family);
+  font-size: 64px;
+  font-weight: 500;
+  color: #BB2339;
+  margin-top: 100px;
+  margin-bottom: 2rem;
+}
+.ap-tab .ap-tab-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.ap-tab .ap-tab-list a:focus {
+  color: white;
+  background-color: #BB2339;
+}
+.ap-tab .ap-tab-list a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid #BB2339;
+}
+.ap-tab .ap-tab-list a:hover {
+  color: white;
+  background-color: #BB2339;
+}
+
+.section-2 {
+  margin-bottom: 100px;
+}
+
+.ap-tab-content .card {
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px solid #242424 10%;
+}
+.ap-tab-content .card .card-body h5 {
+  font-size: 15px;
+  display: flex;
+  text-align: center;
+}
+.ap-tab-content .card .card-body span {
+  display: flex;
+  justify-content: center;
+}
+
+.coteiiner {
+  position: relative;
+  background-color: #F4F4F4;
+}
+.coteiiner .spoons {
+  position: absolute;
+  bottom: -50px;
+  right: 10%;
+}
+.coteiiner .owl-carousel-2 {
+  position: relative;
+}
+.coteiiner .owl-carousel-2 .owl-prev {
+  position: absolute;
+  top: -40px;
+  right: 40px;
+}
+.coteiiner .owl-carousel-2 .owl-next {
+  position: absolute;
+  top: -40px;
+  right: 0px;
+}
+.coteiiner .owl-carousel-2 .owl-prev {
+  background-color: white !important;
+  width: 30px;
+  color: #BB2339 !important;
+  border: 1px solid #242424 !important;
+}
+.coteiiner .owl-carousel-2 .owl-next {
+  width: 30px;
+  background-color: white !important;
+  width: 30px;
+  color: #BB2339 !important;
+  border: 1px solid #242424 !important;
+}
+.coteiiner .owl-carousel-2 .owl-next:focus {
+  width: 30px;
+  background-color: white !important;
+  width: 30px;
+  color: #BB2339 !important;
+  border: 1px solid #BB2339 !important;
+}
+.coteiiner .owl-carousel-2 .owl-prev:focus {
+  background-color: white !important;
+  width: 30px;
+  color: #BB2339 !important;
+  border: 1px solid #BB2339 !important;
+}
+.coteiiner .content-3 h2 {
+  font-size: 48px;
+  font-weight: bolder;
+  font-family: var(--font-family);
+  color: #BB2339;
+}
+.coteiiner .contem {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.coteiiner .content-2 {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.coteiiner .conten {
+  padding: 20px;
+  background-color: white;
+  border-radius: 33px;
+}
+.coteiiner .conten p {
+  color: rgba(0, 0, 0, 0.4);
+}
+.coteiiner .conten .content-img {
+  width: 16px;
+  height: 16px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.coteiiner .conten .content-img p {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.owl-carousel-1 .owl-prev {
+  background-color: white !important;
+  width: 30px;
+  color: #BB2339 !important;
+  border: 1px solid #242424 !important;
+}
+.owl-carousel-1 .owl-next {
+  width: 30px;
+  background-color: white !important;
+  width: 30px;
+  color: #BB2339 !important;
+  border: 1px solid #242424 !important;
+}
+.owl-carousel-1 .owl-next:focus {
+  width: 30px;
+  background-color: white !important;
+  width: 30px;
+  color: #BB2339 !important;
+  border: 1px solid #BB2339 !important;
+}
+.owl-carousel-1 .owl-prev:focus {
+  background-color: white !important;
+  width: 30px;
+  color: #BB2339 !important;
+  border: 1px solid #BB2339 !important;
+}
+
+.section-4 .container .btn {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border: 1px solid #BB2339;
+  color: #BB2339;
+}
+.section-4 .container .content-4 {
+  text-align: center;
+}
+.section-4 .container .content-4 p {
+  margin-top: 100px;
+  font-weight: bolder;
+}
+.section-4 .container .content-4 h2 {
+  color: #BB2339;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.card-body a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #BB2339;
+}
+.card-body .card-title {
+  text-transform: capitalize;
+}
+.card-body .card-text {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.row .card {
+  border: none;
+}
+.row .card .card-tiitle {
+  font-family: var(--font-family);
+}
+.row .card .card-tiitle img {
+  width: 100%;
+}
+
+.section-5 {
+  margin-bottom: 200px;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/Mask Group (1).png");
+  height: 763px;
+}
+.section-5 .mask .btn-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  border-radius: 50%;
+  padding: 30px;
+  border: 1px solid #BB2339;
+}
+
+.conteineer-2 {
+  margin-top: -150px;
+  position: absolute;
+  text-align: center;
+  background-color: #BB2339;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid white;
+}
+.conteineer-2 .unput {
+  position: relative;
+}
+.conteineer-2 .unput .button-2 {
+  color: #F4F4F4;
+  padding: 7px 20px;
+  margin-left: 1rem;
+  border-radius: 33px;
+  border: 1px solid #F4F4F4;
+  background-color: #BB2339;
+}
+.conteineer-2 .unput label {
+  position: absolute;
+  top: 10px;
+  left: 35%;
+  color: #242424;
+}
+.conteineer-2 .unput label:focus {
+  position: absolute;
+  top: 10px;
+  left: 35%;
+}
+.conteineer-2 input {
+  background-color: #BB2339;
+  padding: 7px 50px;
+  border-radius: 33px;
+  border: 1px solid #242424;
+  margin-bottom: 50px;
+}
+
+footer {
+  position: relative;
+  color: #F4F4F4;
+  background-color: #BB2339;
+}
+footer p {
+  color: #F4F4F4 10%;
+  text-align: center;
+}
+footer .img-face {
+  margin-right: 20px;
+}
+footer .first-img {
+  padding-left: 20%;
+  margin: 30px;
+  margin-top: 200px;
+}
+footer h5 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 200px;
+}
+footer .teetle {
+  align-items: space-between;
+}
+
+.last-p {
+  margin-top: 100px;
+}
+
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: red;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555;
+  /* Add a dark-grey background on hover */
+}
+
+@media (max-width: 992px) {
+  .collapse .navbar-nav {
+    margin-left: 0rem;
+  }
+  .conteineer .cont {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .liinks {
+    display: none;
+  }
+}/*# sourceMappingURL=restaurant-home.css.map */

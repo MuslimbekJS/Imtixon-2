@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+:root {
+    --font-family: 'Dongle'
+}
+
+// * {
+// margin: 0;
+// padding: 0;
+// font-family: 'Dongle';
+// }
+
+header {
+    background-color: #BB2339;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+nav {
+    background-color: #BB2339;
+    position: fixed;
+    display: flex;
+}
+
+ul {
+    justify-content: end;
+}
+
+
+.section-1 {
+    background-color: #BB2339;
+
+}
+
+.collapse {
+    .navbar-nav {
+        margin-left: 50%;
+    }
+}
+
+.btn {
+    padding: 5px 20px !important;
+    border-radius: 33px !important;
+}
+
+
+
+.liinks {
+    li {
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        padding-right: 1.5rem;
+    }
+
+    list-style-type: none;
+}
+
+
+.conteineer {
+    .cont {
+        color: white;
+
+        // font-family: 'Dongle';
+        .second-p {
+            margin: 20px 0px;
+
+            padding-right: 9rem;
+            opacity: 0.5;
+            // font-size: 23px;
+        }
+
+        h1 {
+            // font-style: normal;
+            // font-weight: 700;
+            font-size: 79px;
+            // line-height: 130%;
+            /* or 117px */
+
+            // letter-spacing: 0.04em;
+            text-transform: capitalize;
+        }
+
+        .content {
+            .button-1 {
+                margin-bottom: 100px;
+                cursor: pointer;
+                padding: 5px 30px;
+                color: white;
+                background-color: #BB2339;
+                border: 1px solid white;
+                border-radius: 30px;
+            }
+
+            .button-1:hover {
+                background-color: white;
+                color: #BB2339;
+                transition: 0.6s;
+            }
+
+            margin-top: 100px;
+        }
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row: 1fr;
+        grid-column-gap: 50px;
+
+        .image {
+            margin-top: 100px;
+
+            img {
+
+                width: 100%;
+            }
+
+        }
+    }
+}
+
+
+// .card-body{
+    // img{
+        // width: 24px;
+    // height: 20px;
+//     }
+// }
+
+
+
+.ap-tab {
+    h2 {
+        font-family: var(--font-family);
+        font-size: 64px;
+        font-weight: 500;
+        color: #BB2339;
+        margin-top: 100px;
+        margin-bottom: 2rem;
+    }
+
+    .ap-tab-list {
+        a:focus {
+            color: white;
+            background-color: #BB2339;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            border: 1px solid #BB2339;
+            // padding: 5px 20px !important;
+            // border-radius: 30px;
+        }
+
+        a:hover {
+            color: white;
+            background-color: #BB2339;
+        }
+
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+
+    }
+}
+
+
+.section-2 {
+    margin-bottom: 100px;
+}
+
+.ap-tab-content {
+    .card {
+        margin-left: 10px;
+        margin-top: 10px;
+        border: 1px solid #242424 10%;
+        // .card-blog{
+        //     .row{
+        //         .card-blog{
+
+        //         }
+        //     }
+        // }
+
+        .card-body {
+            h5 {
+                font-size: 15px;
+                display: flex;
+                text-align: center;
+            }
+
+            span {
+                display: flex;
+                justify-content: center;
+            }
+
+        }
+
+    }
+}
+
+
+.coteiiner {
+    position: relative;
+    .spoons{
+        position: absolute;
+        bottom: -50px;
+        right: 10%;
+    }
+    .owl-carousel-2 {
+        position: relative;
+
+        .owl-prev {
+            position: absolute;
+            top: -40px;
+            right: 40px;
+        }
+        .owl-next{
+            position: absolute;
+            top: -40px;
+            right: 0px;
+        }
+
+
+
+
+        .owl-prev {
+            background-color: white !important;
+            width: 30px;
+            color: #BB2339 !important;
+            border: 1px solid #242424 !important;
+
+
+
+        }
+
+        .owl-next {
+            width: 30px;
+            background-color: white !important;
+            width: 30px;
+            color: #BB2339 !important;
+            border: 1px solid #242424 !important;
+
+        }
+
+        .owl-next:focus {
+            width: 30px;
+            background-color: white !important;
+            width: 30px;
+            color: #BB2339 !important;
+            border: 1px solid #BB2339 !important;
+        }
+
+        .owl-prev:focus {
+
+            background-color: white !important;
+            width: 30px;
+            color: #BB2339 !important;
+            border: 1px solid #BB2339 !important;
+
+
+
+        }
+    }
+
+    .content-3 {
+        h2 {
+            font-size: 48px;
+            font-weight: bolder;
+            font-family: var(--font-family);
+            color: #BB2339;
+        }
+    }
+
+    .contem {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    background-color: #F4F4F4;
+
+    .content-2 {
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+
+    .conten {
+        padding: 20px;
+        // width: 350px;
+        background-color: white;
+        border-radius: 33px;
+
+        p {
+            color: rgba(0, 0, 0, 0.4);
+
+        }
+
+        .content-img {
+            p {
+                margin-left: 5px;
+                margin-right: 10px;
+            }
+
+            width: 16px;
+            height: 16px;
+            color: rgba(0, 0, 0, 0.4);
+        }
+    }
+}
+
+.owl-carousel-1 {
+
+    .owl-prev {
+        background-color: white !important;
+        width: 30px;
+        color: #BB2339 !important;
+        border: 1px solid #242424 !important;
+
+
+
+    }
+
+    .owl-next {
+        width: 30px;
+        background-color: white !important;
+        width: 30px;
+        color: #BB2339 !important;
+        border: 1px solid #242424 !important;
+
+    }
+
+    .owl-next:focus {
+        width: 30px;
+        background-color: white !important;
+        width: 30px;
+        color: #BB2339 !important;
+        border: 1px solid #BB2339 !important;
+    }
+
+    .owl-prev:focus {
+
+        background-color: white !important;
+        width: 30px;
+        color: #BB2339 !important;
+        border: 1px solid #BB2339 !important;
+
+
+
+    }
+
+}
+.section-4{
+    .container{
+        .btn{
+            margin-top: 50px;
+            margin-bottom: 100px;
+            border: 1px solid #BB2339;
+            color: #BB2339;
+        }
+        .content-4{
+            text-align: center;
+            p{
+                margin-top: 100px;
+                font-weight: bolder;
+            }
+            h2{
+                color: #BB2339;
+                font-size: 48px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+.card-body{
+    a{
+        text-decoration: none;
+        font-weight: bolder;
+        color: #BB2339;
+    }
+    .card-title{
+        text-transform: capitalize;
+    }
+    .card-text{
+        color: rgba(0, 0, 0, 0.4);
+    }
+
+}
+
+
+.row{
+    .card{
+        border: none;
+        .card-tiitle{
+            font-family: var(--font-family);
+            img{
+                width: 100%;
+            }
+        }
+
+    }
+
+}
+
+
+.section-5{
+    margin-bottom: 200px;
+    position: relative;
+    .mask{
+        .btn-2{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            text-align: center;
+            border-radius: 50%;
+            padding: 30px;
+            border: 1px solid #BB2339;
+
+        }
+        }
+        width: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/images/Mask\ Group\ \(1\).png');
+        height: 763px ;
+    }
+
+
+
+.conteineer-2{
+    margin-top: -150px;
+    position: absolute;
+    text-align: center;
+    background-color: #BB2339;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid #ffff;
+    .unput{
+        .button-2{
+            color: #F4F4F4;
+            padding: 7px 20px;
+            margin-left: 1rem;
+            border-radius: 33px;
+            border: 1px solid #F4F4F4;
+            background-color: #BB2339;
+        }
+        position: relative;
+        label{
+            position: absolute;
+            top: 10px;
+            left: 35%;
+            color: #242424;
+        }
+        label:focus {
+            position: absolute;
+            top: 10px;
+            left: 35%;
+            
+        }
+    }
+
+    input{
+        background-color: #BB2339;
+        padding: 7px 50px;
+        border-radius: 33px;
+        border: 1px solid #242424;
+        margin-bottom: 50px;
+    }
+}
+
+
+footer{
+    position: relative;
+    color: #F4F4F4;
+    p{
+        color: #F4F4F4 10%;
+        text-align: center;
+    }
+    .img-face{
+        margin-right: 20px;
+    }
+    .first-img{
+        padding-left: 20%;
+        margin: 30px;
+        margin-top: 200px;
+    }
+    h5{
+        font-size: 32px;
+        text-align: center;
+        margin-top: 200px;
+    }
+    .teetle{
+        align-items: space-between;
+    }
+    background-color: #BB2339;
+}
+
+.last-p{
+    margin-top: 100px;
+}
+
+
+
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: red;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+
+
+@media(max-width: 992px) {
+    .collapse {
+        .navbar-nav {
+            margin-left: 0rem;
+        }
+    }
+
+    .conteineer {
+        .cont {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            // grid-column-gap: 50px;
+        }
+
+    }
+
+    .liinks {
+        display: none;
+    }
+
+}
